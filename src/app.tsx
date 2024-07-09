@@ -1,15 +1,21 @@
 import React from 'react'
+import basicData from '../static/basic_data'
 
-const Minam = () => {
+
+interface textNode {
+  textNode : string;
+}
+
+const Minam : React.FC<textNode> = ({textNode}) => {
   return (
-    <h1>미남은 당연히 공욱재</h1>
+    <h1>{textNode}</h1>
   );
 }
 
 const App : React.FC = () => {
   return (
     <div>
-      <Minam />
+      <Minam textNode={basicData} />
       <h1>안녕?</h1>
     </div>
   )
