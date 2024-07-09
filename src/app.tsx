@@ -4,6 +4,8 @@ import Minam from './Minam'
 import UlTag from './ulTag'
 import UlLi from './UlLi'
 import integer from '../static/integer'
+import Bing from './Bing'
+import style from '../static/style'
 
 
 const App : React.FC = () => {
@@ -13,6 +15,7 @@ const App : React.FC = () => {
       <h1>안녕?</h1>
       <UlTag />
       <UlLi listitem={integer} />
+      <Bing h1TextNode={"마이크로소프트빙"} styles={style} />
     </div>
   )
 }
