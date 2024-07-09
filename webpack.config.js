@@ -10,7 +10,7 @@ module.exports = {
     rules :[
       {
         test: /\.css$/,
-        ues: ["css-loader",'style-loader']
+        use: ['style-loader',"css-loader"]
       },
       {
         test:/\.(js|jsx|ts|tsx)$/,
@@ -20,7 +20,7 @@ module.exports = {
       {
         test:/\.(ts|tsx)$/,
         use:'ts-loader',
-        excluder : /node_modules/
+        exclude : /node_modules/
       }
     ]
   },
