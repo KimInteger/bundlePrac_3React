@@ -1,0 +1,19 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "\"7월9일 수업\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KimInteger/bundlePrac_3.git"
+  },
+  "author": "KimInteger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KimInteger/bundlePrac_3/issues"
+  },
+  "homepage": "https://github.com/KimInteger/bundlePrac_3#readme"
+}
