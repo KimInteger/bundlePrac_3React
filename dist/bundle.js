@@ -10,13 +10,33 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/Minam.tsx":
+/*!***********************!*\
+  !*** ./src/Minam.tsx ***!
+  \***********************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+eval("\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nvar jsx_runtime_1 = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\nvar Minam = function Minam(_ref) {\n  var textNode = _ref.textNode;\n  return (0, jsx_runtime_1.jsx)(\"h1\", {\n    children: textNode\n  });\n};\nexports[\"default\"] = Minam;\n\n//# sourceURL=webpack://practice/./src/Minam.tsx?");
+
+/***/ }),
+
+/***/ "./src/UlLi.tsx":
+/*!**********************!*\
+  !*** ./src/UlLi.tsx ***!
+  \**********************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+eval("\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nvar jsx_runtime_1 = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\nvar UlLi = function UlLi(_ref) {\n  var listitem = _ref.listitem;\n  return (0, jsx_runtime_1.jsxs)(\"ul\", {\n    children: [(0, jsx_runtime_1.jsx)(\"li\", {\n      children: listitem[0]\n    }), (0, jsx_runtime_1.jsx)(\"li\", {\n      children: listitem[1]\n    }), (0, jsx_runtime_1.jsx)(\"li\", {\n      children: listitem[2]\n    })]\n  });\n};\nexports[\"default\"] = UlLi;\n\n//# sourceURL=webpack://practice/./src/UlLi.tsx?");
+
+/***/ }),
+
 /***/ "./src/app.tsx":
 /*!*********************!*\
   !*** ./src/app.tsx ***!
   \*********************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
-eval("\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nvar jsx_runtime_1 = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\nvar Minam = function Minam() {\n  return (0, jsx_runtime_1.jsx)(\"h1\", {\n    children: \"\\uBBF8\\uB0A8\\uC740 \\uB2F9\\uC5F0\\uD788 \\uACF5\\uC6B1\\uC7AC\"\n  });\n};\nvar App = function App() {\n  return (0, jsx_runtime_1.jsxs)(\"div\", {\n    children: [(0, jsx_runtime_1.jsx)(Minam, {}), (0, jsx_runtime_1.jsx)(\"h1\", {\n      children: \"\\uC548\\uB155?\"\n    })]\n  });\n};\nexports[\"default\"] = App;\n\n//# sourceURL=webpack://practice/./src/app.tsx?");
+eval("\n\nvar __importDefault = this && this.__importDefault || function (mod) {\n  return mod && mod.__esModule ? mod : {\n    \"default\": mod\n  };\n};\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nvar jsx_runtime_1 = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\nvar basic_data_1 = __importDefault(__webpack_require__(/*! ../static/basic_data */ \"./static/basic_data.tsx\"));\nvar Minam_1 = __importDefault(__webpack_require__(/*! ./Minam */ \"./src/Minam.tsx\"));\nvar ulTag_1 = __importDefault(__webpack_require__(/*! ./ulTag */ \"./src/ulTag.tsx\"));\nvar UlLi_1 = __importDefault(__webpack_require__(/*! ./UlLi */ \"./src/UlLi.tsx\"));\nvar integer_1 = __importDefault(__webpack_require__(/*! ../static/integer */ \"./static/integer.tsx\"));\nvar App = function App() {\n  return (0, jsx_runtime_1.jsxs)(\"div\", {\n    children: [(0, jsx_runtime_1.jsx)(Minam_1[\"default\"], {\n      textNode: basic_data_1[\"default\"]\n    }), (0, jsx_runtime_1.jsx)(\"h1\", {\n      children: \"\\uC548\\uB155?\"\n    }), (0, jsx_runtime_1.jsx)(ulTag_1[\"default\"], {}), (0, jsx_runtime_1.jsx)(UlLi_1[\"default\"], {\n      listitem: integer_1[\"default\"]\n    })]\n  });\n};\nexports[\"default\"] = App;\n\n//# sourceURL=webpack://practice/./src/app.tsx?");
 
 /***/ }),
 
@@ -27,6 +47,76 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 eval("\n\nvar __importDefault = this && this.__importDefault || function (mod) {\n  return mod && mod.__esModule ? mod : {\n    \"default\": mod\n  };\n};\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nvar jsx_runtime_1 = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\nvar app_1 = __importDefault(__webpack_require__(/*! ./app */ \"./src/app.tsx\"));\nvar client_1 = __importDefault(__webpack_require__(/*! react-dom/client */ \"./node_modules/react-dom/client.js\"));\nvar root = client_1[\"default\"].createRoot(document.getElementById('root'));\nroot.render((0, jsx_runtime_1.jsx)(app_1[\"default\"], {}));\n\n//# sourceURL=webpack://practice/./src/index.tsx?");
+
+/***/ }),
+
+/***/ "./src/liTag.tsx":
+/*!***********************!*\
+  !*** ./src/liTag.tsx ***!
+  \***********************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+eval("\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nvar jsx_runtime_1 = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\nvar liTag = function liTag(_ref) {\n  var text = _ref.text;\n  return (0, jsx_runtime_1.jsx)(\"li\", {\n    children: text\n  });\n};\nexports[\"default\"] = liTag;\n\n//# sourceURL=webpack://practice/./src/liTag.tsx?");
+
+/***/ }),
+
+/***/ "./src/ulTag.tsx":
+/*!***********************!*\
+  !*** ./src/ulTag.tsx ***!
+  \***********************/
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\n\nvar __importDefault = this && this.__importDefault || function (mod) {\n  return mod && mod.__esModule ? mod : {\n    \"default\": mod\n  };\n};\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nvar jsx_runtime_1 = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\nvar liTag_1 = __importDefault(__webpack_require__(/*! ./liTag */ \"./src/liTag.tsx\"));\nvar li_data_one_1 = __importDefault(__webpack_require__(/*! ../static/li_data_one */ \"./static/li_data_one.tsx\"));\nvar li_data_two_1 = __importDefault(__webpack_require__(/*! ../static/li_data_two */ \"./static/li_data_two.tsx\"));\nvar li_data_three_1 = __importDefault(__webpack_require__(/*! ../static/li_data_three */ \"./static/li_data_three.tsx\"));\nvar ulTag = function ulTag() {\n  return (0, jsx_runtime_1.jsxs)(\"ul\", {\n    children: [(0, jsx_runtime_1.jsx)(liTag_1[\"default\"], {\n      text: li_data_one_1[\"default\"]\n    }), (0, jsx_runtime_1.jsx)(liTag_1[\"default\"], {\n      text: li_data_two_1[\"default\"]\n    }), (0, jsx_runtime_1.jsx)(liTag_1[\"default\"], {\n      text: li_data_three_1[\"default\"]\n    })]\n  });\n};\nexports[\"default\"] = ulTag;\n\n//# sourceURL=webpack://practice/./src/ulTag.tsx?");
+
+/***/ }),
+
+/***/ "./static/basic_data.tsx":
+/*!*******************************!*\
+  !*** ./static/basic_data.tsx ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, exports) => {
+
+eval("\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nvar minam = \"공욱재\";\nexports[\"default\"] = minam;\n\n//# sourceURL=webpack://practice/./static/basic_data.tsx?");
+
+/***/ }),
+
+/***/ "./static/integer.tsx":
+/*!****************************!*\
+  !*** ./static/integer.tsx ***!
+  \****************************/
+/***/ ((__unused_webpack_module, exports) => {
+
+eval("\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nvar integer = [\"김정수\", \"김인티저\", \"인티저김\"];\nexports[\"default\"] = integer;\n\n//# sourceURL=webpack://practice/./static/integer.tsx?");
+
+/***/ }),
+
+/***/ "./static/li_data_one.tsx":
+/*!********************************!*\
+  !*** ./static/li_data_one.tsx ***!
+  \********************************/
+/***/ ((__unused_webpack_module, exports) => {
+
+eval("\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nvar itemOne = '김정수';\nexports[\"default\"] = itemOne;\n\n//# sourceURL=webpack://practice/./static/li_data_one.tsx?");
+
+/***/ }),
+
+/***/ "./static/li_data_three.tsx":
+/*!**********************************!*\
+  !*** ./static/li_data_three.tsx ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, exports) => {
+
+eval("\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nvar itemThree = '인티저김';\nexports[\"default\"] = itemThree;\n\n//# sourceURL=webpack://practice/./static/li_data_three.tsx?");
+
+/***/ }),
+
+/***/ "./static/li_data_two.tsx":
+/*!********************************!*\
+  !*** ./static/li_data_two.tsx ***!
+  \********************************/
+/***/ ((__unused_webpack_module, exports) => {
+
+eval("\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nvar itemTwo = '김인티저';\nexports[\"default\"] = itemTwo;\n\n//# sourceURL=webpack://practice/./static/li_data_two.tsx?");
 
 /***/ }),
 
